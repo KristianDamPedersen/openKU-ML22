@@ -36,7 +36,7 @@ $ A \cap B = \{ x | x \in A \land x \in B \} $
 Example:  
 > $\{0,\ 2,\ 4\} \cap \{1,\ 2,\ 3,\} = \{2\}$  
 
-$ A \cup B $ describes the union of 2 sets it is defined as follows:  
+$ A \cup B $ or `\cup` describes the union of 2 sets it is defined as follows:  
 $ A \cup B = \{ x | x \in A \land x \in B \}$
 Example:
 > $\{0,\ 2,\ 4\} \cap \{1,\ 2,\ 3,\} = \{0,\ 1,\ 2,\ 3, 4\}$  
