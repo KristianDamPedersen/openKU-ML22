@@ -32,7 +32,7 @@ A set can be defined either from an interval or from a condition restricting a l
 Closed and open intervals are defined as such respectively $]A[$ and $[A]$. Graphically closed and open intervals are represented on a graph by a filled and hollow dot respectively.
 
 $ A \cap B $ or `\cap` describes the intersection between 2 sets, it is defined as follows:  
-$A \cap B = \{ x | x \in A \land x \in B \}$  
+$ A \cap B = \{ x | x \in A \land x \in B \} $  
 Example:  
 > $\{0,\ 2,\ 4\} \cap \{1,\ 2,\ 3,\} = \{2\}$  
 
