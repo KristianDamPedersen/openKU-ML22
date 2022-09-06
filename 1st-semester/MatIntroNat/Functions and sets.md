@@ -32,17 +32,17 @@ A set can be defined either from an interval or from a condition restricting a l
 Closed and open intervals are defined as such respectively $]A[$ and $[A]$. Graphically closed and open intervals are represented on a graph by a filled and hollow dot respectively.
 
 $A \cap B$ or `\cap` describes the intersection between 2 sets, it is defined as follows:  
-$A \cap B = \set{ x | x \in A \land x \in B }$  
+$A \cap B = \set{ x \mid x \in A \land x \in B }$  
 Example:  
 > $\set{0,\ 2,\ 4} \cap \set{1,\ 2,\ 3,} = \set{2}$  
 
 $A \cup B$ or `\cup` describes the union of 2 sets it is defined as follows:  
-$A \cup B = \set{ x | x \in A \land x \in B }$
+$A \cup B = \set{ x \mid x \in A \land x \in B }$
 Example:
 > $\set{0,\ 2,\ 4} \cap \set{1,\ 2,\ 3} = \set{0,\ 1,\ 2,\ 3, 4}$  
 
 $a \setminus b$, `\setminus` describes the set containing all elements of A not present in B, also known as the set difference. It is defined as follows:  
-$a \setminus b = \set{ x | x \in A \land x \notin B }$ Example:  
+$a \setminus b = \set{ x \mid x \in A \land x \notin B }$ Example:  
 > $\set{0,\ 2,\ 4} \cap \set{1,\ 2,\ 3} = \set{0,\ 4}$  
 
 ---
@@ -51,12 +51,12 @@ $a \setminus b = \set{ x | x \in A \land x \notin B }$ Example:
 $f: A \rightarrow B$ is injective if it fulfills the following property:
 
  $\forall\ b \in B\ \exists\ a \in A\ = f(a) = b$ Verbosely this means that a function has a unique result for every unique input. Example to test for injectivity:
- > $f: \mathbb R \rightarrow \mathbb R  \vert f(x) = \vert x \vert$  
+ > $f: \mathbb R \rightarrow \mathbb R  \mid f(x) = \vert x \vert$  
  > For this function it is possible to prove that it is NOT injective since f(-1) and f(1) both map to 1, $f(-1) = f(1) = 1$
 ## Surjective functions
 Surjective functions are any function where the input domain\definitionsmængde maps to all possible values of the codomain\værdimængde. Example:
-> $f(x)=x^2 \vert f: \mathbb R \rightarrow \mathbb R$ 
+> $f(x)=x^2 \mid f: \mathbb R \rightarrow \mathbb R$ 
 > This function is NOT surjective since f(x) never maps to a the negative numbers which are contained in the reals. This function on the other hand is surjective:  
-> $f(x)=x^2 \vert f: \mathbb R \rightarrow  \mathbb  R^+$ since it only maps to the positive reals given the input of the entire real domain.
+> $f(x)=x^2 \mid f: \mathbb R \rightarrow  \mathbb  R^+$ since it only maps to the positive reals given the input of the entire real domain.
 ## Bijective and inverse functions
 Bijective functions are any function that fulfills the requirements for both injectivity and surjectivity, these functions have the unique property of having a corresponding inverse function.
