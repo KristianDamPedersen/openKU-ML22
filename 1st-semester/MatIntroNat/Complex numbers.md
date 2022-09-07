@@ -18,6 +18,7 @@ $\theta \in [0, 2\pi n] \mid n \in \mathbb z$
 ### Polar form of complex numbers
 Via the argument and modulus, it is possible to define all complex numbers using their length/modulus:  
 z = $\vert z \vert (\cos \theta + i \sin \theta) = \vert z \vert e^{i\theta}$  
+This is the same as finding the angle of the number on the complex unit circle and continuing forward from that angle until you reach the length of z  
 The rules for the mathematical operatons on complex numbers can be found in TKO p. 119 [Citation needed]
 
 ### The unit circle witihin the complex plane
