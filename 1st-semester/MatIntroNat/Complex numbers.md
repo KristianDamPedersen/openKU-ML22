@@ -32,3 +32,33 @@ $\{z \in \mathbb C \mid \vert z - i \vert = 1\}$
 The triangle inequality in $\mathbb C$ is analogous to the vector proof within $\mathbb R²$ eg.  
 $\vert z+w \vert \geq \vert z \vert + \vert w \vert$  
 This is can be interpreted as the fact that the hypotenuse of a triangle is shorter than the sum of the 2 remaining sides.
+
+### Roots in the complex plane
+Polynomial division algorithm.
+Divide $3x^3+x^2+4x+4$ by $x-4$  
+Set c = 4 as it is the coefficient that is divided by
+Extract coefficients of the polynomial, in the case it is 3, 1, 4, 4
+| 4 	|   	|   	|   	|   	|
+|---	|---	|---	|---	|---	|
+|   	| 3 	| 1 	| 4 	| 4 	|
+|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|
+Move the first digit down
+| 4 	|   	|   	|   	|   	|
+|---	|---	|---	|---	|---	|
+|   	| 3 	| 1 	| 4 	| 4 	|
+|   	|   	|   	|   	|   	|
+|   	| 3  	|   	|   	|   	|
+Multiply the sum of digits by C and move to the right
+| 4 	|   	|   	|   	|   	|
+|---	|---	|---	|---	|---	|
+|   	| 3 	| 1 	| 4 	| 4 	|
+|   	|   	| 12  	|   	|   	|
+|   	| 3  	|   	|   	|   	|
+Sum and repeat
+| 4 	|   	|   	|   	|   	|
+|---	|---	|---	|---	|---	|
+|   	| 3 	| 1 	| 4 	| 4 	|
+|   	|   	| 12  	| 44  	| 192  	|
+|   	| 3  	| 11  	| 48  	| 196  	|
+Result of  $\frac{3x^3+x^2+4x+4}{x-4}=3x^2+11x+48+\frac{196}{x-4}$  
