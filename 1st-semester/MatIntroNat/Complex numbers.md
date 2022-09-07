@@ -15,11 +15,12 @@ $\frac{w}{z} = \frac{w\bar z}{z \bar z}=\frac{(a-bi)(c+di)}{a^2+b^2}$ : Division
 $\vert z \vert = \sqrt{a^2+b^2} = \sqrt{z \bar z}$ : Modulus / length  
 The angle or ratio between the imaginary and real part of a complex number is called the argument, it is periodic for every $2\pi$. Commonly the argument is restricted to  
 $\theta \in [0, 2\pi n] \mid n \in \mathbb z$
+The rules for the mathematical operatons on complex numbers can be found in TKO p. 119 [Citation needed]  
+
 ### Polar form of complex numbers
 Via the argument and modulus, it is possible to define all complex numbers using their length/modulus:  
 z = $\vert z \vert (\cos \theta + i \sin \theta) = \vert z \vert e^{i\theta}$  
 This is the same as finding the angle of the number on the complex unit circle and continuing forward from that angle until you reach the length of z  
-The rules for the mathematical operatons on complex numbers can be found in TKO p. 119 [Citation needed]
 
 ### The unit circle witihin the complex plane
 $\{z \in \mathbb C \mid \vert z - i \vert = 1\}$
