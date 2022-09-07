@@ -39,8 +39,8 @@ This is can be interpreted as the fact that the hypotenuse of a triangle is shor
 
 ## Polynomial division algorithm.
 Divide $3x^3+2x^2+5x-4$ by $x-3$  
-Set c = 3 as it is the coefficient that is divided by
-Extract coefficients of the polynomial, in the case it is 3, 2, 5, -4
+Set c = 3 as it is the coefficient that is divided by  
+Extract coefficients of the polynomial, in this case, it is 3, 2, 5, -4
 | 3 	|   	|   	|   	|   	|
 |---	|---	|---	|---	|---	|
 |   	| 3 	| 2 	| 5 	| -4 	|
