@@ -19,12 +19,14 @@ The rules for the mathematical operatons on complex numbers can be found in TKO 
 
 ### Polar form of complex numbers
 Via the argument and modulus, it is possible to define all complex numbers using their length/modulus:  
-z = $\vert z \vert (\cos \theta + i \sin \theta) = \vert z \vert e^{i\theta}$  
+$z = \vert z \vert (\cos \theta + i \sin \theta) = \vert z \vert e^{i\theta}$  
 This is the same as finding the angle of the number on the complex unit circle and continuing forward from that angle until you reach the length of z  
+Multiplication of two complex numbers is the same as multiplying the lengths and adding the angles:  
+$z \cdot w = \vert z \vert \vert w \vert (\cos(\theta+\phi)+i\sin(\theta+\phi))$ 
 
 ### The unit circle witihin the complex plane
 $\{z \in \mathbb C \mid \vert z - i \vert = 1\}$
-[Insert complex unit circle here]#
+[Insert complex unit circle here]
 
 ### Triangle inequality
 The triangle inequality in $\mathbb C$ is analogous to the vector proof within $\mathbb R²$ eg.  
