@@ -35,30 +35,31 @@ This is can be interpreted as the fact that the hypotenuse of a triangle is shor
 
 ### Roots in the complex plane
 Polynomial division algorithm.
-Divide $3x^3+x^2+4x+4$ by $x-4$  
-Set c = 4 as it is the coefficient that is divided by
-Extract coefficients of the polynomial, in the case it is 3, 1, 4, 4
-| 4 	|   	|   	|   	|   	|
+Divide $3x^3+2x^2+5x-4$ by $x-3$  
+Set c = 3 as it is the coefficient that is divided by
+Extract coefficients of the polynomial, in the case it is 3, 2, 5, -4
+| 3 	|   	|   	|   	|   	|
 |---	|---	|---	|---	|---	|
-|   	| 3 	| 1 	| 4 	| 4 	|
+|   	| 3 	| 2 	| 5 	| -4 	|
 |   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
-Move the first digit down
-| 4 	|   	|   	|   	|   	|
+Move first digit down
+| 3 	|   	|   	|   	|   	|
 |---	|---	|---	|---	|---	|
-|   	| 3 	| 1 	| 4 	| 4 	|
+|   	| 3 	| 2 	| 5 	| -4 	|
 |   	|   	|   	|   	|   	|
 |   	| 3  	|   	|   	|   	|
-Multiply the sum of digits by C and move to the right
-| 4 	|   	|   	|   	|   	|
+Multiply digit by C and sum it with the next number
+| 3 	|   	|   	|   	|   	|
 |---	|---	|---	|---	|---	|
-|   	| 3 	| 1 	| 4 	| 4 	|
-|   	|   	| 12  	|   	|   	|
-|   	| 3  	|   	|   	|   	|
-Sum and repeat
-| 4 	|   	|   	|   	|   	|
+|   	| 3 	| 2 	| 5 	| -4 	|
+|   	|   	| 9  	|   	|   	|
+|   	| 3  	| 11  	|   	|   	|
+Repeat
+| 3 	|   	|   	|   	|   	|
 |---	|---	|---	|---	|---	|
-|   	| 3 	| 1 	| 4 	| 4 	|
-|   	|   	| 12  	| 44  	| 192  	|
-|   	| 3  	| 11  	| 48  	| 196  	|
-Result of  $\frac{3x^3+x^2+4x+4}{x-4}=3x^2+11x+48+\frac{196}{x-4}$  
+|   	| 3 	| 2 	| 5 	| -4 	|
+|   	|   	| 9  	| 33  	| 114  	|
+|   	| 3  	| 11  	| 38  	| 110  	|
+
+Result of  $\frac{3x^3+2x^2+5x-4}{x-3}=33x^2+11x+38+\frac{110}{x-3}$  
