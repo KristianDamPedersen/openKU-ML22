@@ -66,3 +66,4 @@ Repeat
 |   	| 3  	| 11  	| 38  	| 110  	|
 
 Result of  $\frac{3x^3+2x^2+5x-4}{x-3}=33x^2+11x+38+\frac{110}{x-3}$  
+If the last result is a 0 then it means that the polynomial in base is a root of the function.
