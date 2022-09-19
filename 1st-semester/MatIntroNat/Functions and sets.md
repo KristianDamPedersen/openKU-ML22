@@ -80,7 +80,28 @@ For all $\epsilon >0$ exists an integer where n>N applies $\vert a_n -a \vert < 
 Very confusing sentence to bd deciphered later:  
 Let $a_n = \frac{1}{n}$ which converges to 0  
 Choose N so that $N > \frac{1}{\epsilon} \iff \epsilon > \frac{1}{N}$  
-$\vert 0 - a_n \vert = \frac{1}{n}\leq \frac{1}{N} < \epsilon\ \forall\ n \geq N$
+
 ## Divergence
-Functions are divergent if not restricted  
+Functions are divergent if they are unbounded
+Proof:
+$a_n \geq a \forall n$ since "a" is an "overnumber"  
+Let $\epsilon > 0$ be random.  
+Since a is the smallest overnumber then $a-\epsilon$ isnt an overnumber, $\exists N$ so that $a_N>a-\epsilon$
+$\vert 0 - a_n \vert = \frac{1}{n}\leq \frac{1}{N} < \epsilon\ \forall\ n \geq N$
+
 Functions are divergent towards $\infty$ if $\forall M > 0 \exists N : a_n \geq M \forall n \geq N$
+INSERT EPSILON DELTA PROOF
+## Continuity
+Example of continuity  
+Let  $f(x) = sx+t$ be a linear function
+$|f(x)-f(a)| = |s||x-a|$  
+Random $\epsilon>0$. Set $\delta = \frac{\epsilon}{|s|}$  
+If $|x-a|<\delta$ then $|f(x)-f(a)|\leq |s|\frac{\epsilon}{|S|} = \epsilon$
+## Proof for ekstramalværdisætning
+We wish to prove that a function f(x) bonded from [a, b] has atleast one point at c where the function has a root.  
+Find a point d so that $f(d) \geq f(x) \forall x \in [a,b]$  
+Let $M = \{sup(f(x)) | x \in [a,b]\}$, where $M=\infty$ if unbounded.  
+Let the midpoint be $c=\frac{a+b}{2}$  
+Either $M=\{sup(f(x)) | a\leq x \leq c \}$ or  
+$M=\{sup(f(x)) | c\leq x \leq b \}$  
+Repeat ad infinitum to find the point that is the maximum in the given function.  
