@@ -15,7 +15,7 @@ PoP Exercises: 09:00-12:00
 (opt.) MatIntroNat studiecafé 16:00-19:00
 
 ### Wednesday
-MatIntroNat: 09:00-17:00 **CHECK**
+MatIntroNat: 08:15-17:00
 
 ### Thursday
 PoP Lecture: 10:00-12:00
